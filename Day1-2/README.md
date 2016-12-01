@@ -10,3 +10,20 @@
 9. Styling is not the requirement for this task, but it will be an additional bonus;
 10. You're not allowed to use any framework :)
 11. Add attribution link, remember, you promised!
+
+##Babel
+For 1-4 stars:
+Use babel for your solution from week1, and make it run inside IE10. Please, find virtual machine with installed IE10 for your OS here:
+https://developer.microsoft.com/en-us/microsoft-edge/tools/vms/windows/?utm_source=SitePoint
+
+For 5 stars:
+Write a babel plugin. Please, negotiate with your mentor what exactly will you do; you're free to do anything (if this anything is approved by him :)
+You can use https://github.com/RReverser/babel-plugin-hello-world as a starting point.
+
+Please, see below the example of how the home task can look like:
+
+Task:
+Write your own plugin which will convert all true values to the false.
+Ex.:
+var q = true; => var q  = false;
+if (a === true) => if (a === true)
